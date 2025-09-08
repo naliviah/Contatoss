@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cabecalho-principal {
+    background: #a35ddb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#adicionar, #contatos {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 320px;
+    flex: 1;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+#adicionar label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+
+#adicionar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+#botao {
+    width: 100%;
+    padding: 12px;
+    background: #611485;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#botao:hover {
+    background: #421566;
+}
+
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contato img {
+    border-radius: 50%;
+    border: 2px solid #4a90e2;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.rodape {
+    text-align: center;
+    padding: 15px;
+    background: #f1f1f1;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #555;
+}
